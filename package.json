@@ -1,0 +1,25 @@
+{
+  "name": "identifiers-handle",
+  "version": "0.1.0",
+  "description": "Extract, validate and normalize Handles.",
+  "keywords": ["handle", "scholarly", "identifiers"],
+  "main": "./lib/handle.js",
+  "repository": "https://github.com/altmetric/identifiers-handle",
+  "bugs": "https://github.com/altmetric/identifiers-handle/issues",
+  "author": "Jonathan Hernandez",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "jest": "^18.1.0"
+  },
+  "scripts": {
+    "pretest": "eslint lib tests",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
