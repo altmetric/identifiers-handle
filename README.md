@@ -2,7 +2,7 @@
 
 Extract, validate and normalize [Handles](https://en.wikipedia.org/wiki/Handle_System).
 
-**Current version:** 0.1.0  
+**Current version:** 0.1.1  
 **Supported Node.js versions:** 4, 5, 6, 7
 
 ## Installation
